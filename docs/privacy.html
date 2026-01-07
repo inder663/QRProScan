@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Privacy Policy | QR Pro Scan</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        :root {
+            --primary: #0A84FF;
+            --text: #1c1c1e;
+            --secondary: #6e6e73;
+            --background: #ffffff;
+            --divider: #e5e5ea;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--background);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 32px 20px 80px;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 32px;
+        }
+
+        header img {
+            width: 56px;
+            height: 56px;
+            border-radius: 14px;
+        }
+
+        header h1 {
+            font-size: 28px;
+            font-weight: 700;
+        }
+
+        h2 {
+            margin-top: 36px;
+            margin-bottom: 12px;
+            font-size: 22px;
+            font-weight: 600;
+        }
+
+        p {
+            margin-bottom: 12px;
+            color: var(--secondary);
+        }
+
+        ul {
+            margin: 12px 0 12px 20px;
+            color: var(--secondary);
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        footer {
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 1px solid var(--divider);
+            font-size: 14px;
+            color: var(--secondary);
+        }
+
+        a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .updated {
+            margin-top: 8px;
+            font-size: 14px;
+            color: var(--secondary);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+            <img src="logo.png" alt="QR Pro Scan Logo">
+            <h1>Privacy Policy</h1>
+        </header>
+
+        <p>
+            Your privacy is important to us. This Privacy Policy explains how
+            <strong>QR Pro Scan</strong> (“we”, “our”, or “us”) collects, uses,
+            and protects your information when you use our mobile application.
+        </p>
+
+        <p class="updated">
+            Last updated: <strong>January 2026</strong>
+        </p>
+
+        <h2>1. Information We Collect</h2>
+        <p>
+            QR Pro Scan is designed with privacy in mind. We do <strong>not</strong>
+            collect or store personal data on our servers.
+        </p>
+
+        <ul>
+            <li>Scanned QR code content is processed locally on your device</li>
+            <li>Created QR codes are stored only on your device</li>
+            <li>Scan history remains local and never leaves your device</li>
+        </ul>
+
+        <h2>2. Camera Access</h2>
+        <p>
+            The app requires camera access solely to scan QR codes.
+            Camera data is <strong>never recorded, stored, or transmitted</strong>.
+        </p>
+
+        <h2>3. Photos Access (Optional)</h2>
+        <p>
+            If you choose to scan QR codes from images, the app accesses
+            photos <strong>only when explicitly selected by you</strong>.
+            Images are processed locally and never uploaded.
+        </p>
+
+        <h2>4. Internet Usage</h2>
+        <p>
+            QR Pro Scan may open links contained in QR codes using your
+            device’s browser. We do not track, log, or monitor any websites you visit.
+        </p>
+
+        <h2>5. Data Sharing</h2>
+        <p>
+            We do <strong>not</strong> sell, trade, or share your data with
+            third parties. There are no analytics, advertising SDKs,
+            or trackers in QR Pro Scan.
+        </p>
+
+        <h2>6. Children’s Privacy</h2>
+        <p>
+            QR Pro Scan does not knowingly collect any personal information
+            from children under the age of 13.
+        </p>
+
+        <h2>7. Security</h2>
+        <p>
+            We follow industry best practices to ensure your data remains
+            secure on your device. Since no data is transmitted or stored
+            remotely, your privacy risk is minimal.
+        </p>
+
+        <h2>8. Changes to This Policy</h2>
+        <p>
+            We may update this Privacy Policy from time to time.
+            Any changes will be reflected on this page with an updated date.
+        </p>
+
+        <h2>9. Contact Us</h2>
+        <p>
+            If you have any questions or concerns about this Privacy Policy,
+            please contact us:
+        </p>
+
+        <p>
+            📧 <strong>Email:</strong>
+            <a href="mailto:devhookdeveloper@gmail.com">
+                devhookdeveloper@gmail.com
+            </a>
+        </p>
+
+        <footer>
+            <p>
+                © <span id="year"></span> devhook. All rights reserved.<br>
+                App: <strong>QR Pro Scan</strong>
+            </p>
+        </footer>
+
+    </div>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
