@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact & Support | QR Pro Scan</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        :root {
+            --primary: #0A84FF;
+            --text: #1c1c1e;
+            --secondary: #6e6e73;
+            --background: #ffffff;
+            --divider: #e5e5ea;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--background);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 32px 20px 80px;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 32px;
+        }
+
+        header img {
+            width: 56px;
+            height: 56px;
+            border-radius: 14px;
+        }
+
+        header h1 {
+            font-size: 28px;
+            font-weight: 700;
+        }
+
+        h2 {
+            margin-top: 36px;
+            margin-bottom: 12px;
+            font-size: 22px;
+            font-weight: 600;
+        }
+
+        h3 {
+            margin-top: 24px;
+            margin-bottom: 8px;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        p {
+            margin-bottom: 12px;
+            color: var(--secondary);
+        }
+
+        ul {
+            margin: 12px 0 12px 20px;
+            color: var(--secondary);
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .card {
+            background: #f9f9fb;
+            border-radius: 14px;
+            padding: 20px;
+            margin-top: 16px;
+        }
+
+        a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 1px solid var(--divider);
+            font-size: 14px;
+            color: var(--secondary);
+        }
+
+        .email-box {
+            display: inline-block;
+            margin-top: 8px;
+            padding: 10px 14px;
+            background: white;
+            border-radius: 10px;
+            border: 1px solid var(--divider);
+            font-weight: 500;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+            <img src="logo.png" alt="QR Pro Scan Logo">
+            <h1>Contact & Support</h1>
+        </header>
+
+        <p>
+            Need help with <strong>QR Pro Scan</strong>?  
+            We’re here to assist you with any questions, issues, or feedback.
+        </p>
+
+        <h2>Contact Support</h2>
+
+        <div class="card">
+            <p>
+                If you’re experiencing issues, have questions, or want to share feedback,
+                please contact us via email:
+            </p>
+
+            <div class="email-box">
+                📧 <a href="mailto:devhookdeveloper@gmail.com">
+                    devhookdeveloper@gmail.com
+                </a>
+            </div>
+
+            <p style="margin-top: 12px;">
+                We aim to respond within <strong>24–48 hours</strong>.
+            </p>
+        </div>
+
+        <h2>Frequently Asked Questions (FAQ)</h2>
+
+        <div class="card">
+            <h3>Does QR Pro Scan collect my data?</h3>
+            <p>
+                No. QR Pro Scan does not collect, store, or transmit personal data.
+                All scanning and QR generation happens locally on your device.
+            </p>
+
+            <h3>Does the app require an internet connection?</h3>
+            <p>
+                No. Most features work completely offline.
+                Internet is only needed when opening external links.
+            </p>
+
+            <h3>Why can’t some QR codes be scanned?</h3>
+            <p>
+                Some QR codes may be damaged, low quality, or use unsupported formats.
+                Ensure good lighting and a clear image when scanning.
+            </p>
+
+            <h3>Is QR Pro Scan free?</h3>
+            <p>
+                QR Pro Scan may offer both free and premium features depending on your version.
+                Any pricing or subscriptions are clearly shown inside the app.
+            </p>
+
+            <h3>How can I restore purchases?</h3>
+            <p>
+                If applicable, use the “Restore Purchases” option inside the app settings.
+                If issues persist, contact support.
+            </p>
+
+            <h3>Can I suggest new features?</h3>
+            <p>
+                Absolutely. We welcome feature requests and feedback via email.
+            </p>
+        </div>
+
+        <h2>About</h2>
+        <p>
+            <strong>QR Pro Scan</strong> is developed and maintained by <strong>devhook</strong>,
+            with a focus on privacy, performance, and simplicity.
+        </p>
+
+        <footer>
+            <p>
+                © <span id="year"></span> devhook. All rights reserved.<br>
+                App: <strong>QR Pro Scan</strong>
+            </p>
+        </footer>
+
+    </div>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
